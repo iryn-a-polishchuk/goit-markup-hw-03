@@ -1,0 +1,241 @@
+:root {
+  --main-text-color: #757575;
+  --turquoise-color: #2196f3;
+  --nav-title-color: #212121;
+  --tel-mail-footer-col: rgba(255, 255, 255, 0.6);
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --dark-color: #2f303a;
+  --section-light-color: #f5f4fa;
+  --button-active-color: #188ce8;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* Хедер */
+.nav .logo-web {
+  color: var(--turquoise-color);
+}
+.nav .logo-studio {
+  color: var(--black-color);
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.site-navigation .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--nav-title-color);
+}
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--turquoise-color);
+}
+
+.nav .link.current {
+  color: var(--turquoise-color);
+}
+
+.contacts .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--turquoise-color);
+}
+
+/*Герой*/
+.hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: var(--dark-color);
+}
+
+.hero .title {
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+/*Кнопка замовити послугу*/
+.button {
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  border-color: transparent;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-color);
+  background-color: var(--turquoise-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--button-active-color);
+}
+
+/*Фільтр*/
+.filtr {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  border-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  color: var(--nav-title-color);
+  background-color: var(--section-light-color);
+}
+.filtr:hover,
+.filtr:focus {
+  color: var(--white-color);
+  background-color: var(--turquoise-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+/*Секції*/
+.section .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  color: var(--nav-title-color);
+}
+
+.items-section .title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.items-section p {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.our-team-img .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+}
+
+.our-team-img p {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our-team {
+  background-color: var(--section-light-color);
+}
+
+.examples .title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.examples p {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+}
+
+.bg-white {
+  background-color: var(--white-color);
+}
+
+/*Підвал*/
+.footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  background-color: var(--dark-color);
+}
+.footer .logo-web {
+  color: var(--turquoise-color);
+}
+
+.footer .logo-studio {
+  color: var(--white-color);
+}
+.contacts-ft .adress {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.contacts-ft .adress:hover,
+.contacts-ft .adress:focus {
+  color: var(--turquoise-color);
+}
+.contacts-ft .link {
+  color: var(--tel-mail-footer-col);
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+.contacts-ft .link:hover,
+.contacts-ft .link:focus {
+  color: var(--turquoise-color);
+}
