@@ -44,7 +44,6 @@ img {
   height: auto;
 }
 
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -99,11 +98,11 @@ img {
   margin-right: 93px;
 }
 
-.site-navigation{
+.site-navigation {
   display: flex;
 }
 
-.site-navigation .item:not(:last-child){
+.site-navigation .item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -153,7 +152,7 @@ img {
 }
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /*Герой*/
@@ -283,7 +282,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav-title-color);
-
 }
 .our-team-img p {
   margin-bottom: 30px;
@@ -296,7 +294,7 @@ img {
   background-color: var(--white-color);
   overflow: hidden;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-  0px 2px 1px rgba(0, 0, 0, 0.2);
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 /*Портфоліо*/
@@ -307,7 +305,7 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-  
+
 .filtrs .item:not(:last-child) {
   margin-right: 8px;
 }
@@ -356,7 +354,7 @@ img {
 .examples p {
   max-width: 100%;
   padding-left: 24px;
-  Padding-right: 24px;
+  padding-right: 24px;
   padding-bottom: 20px;
   font-size: 16px;
   line-height: calc(30 / 16);
@@ -364,8 +362,8 @@ img {
 }
 
 .signature {
-  background-color: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
 }
 
 /*Підвал*/
@@ -374,7 +372,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer address{
+.footer address {
   font-style: normal;
 }
 
